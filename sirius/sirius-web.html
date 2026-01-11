@@ -1,46 +1,177 @@
----
-layout: sirius_web
-title: Sirius | Sirius WebHome
----
-<section id="intro" class="">
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Sirius | Sirius WebHome</title>
+
+    <meta name="description" content="The Eclipse Foundation - home to a global community, the Eclipse IDE, Jakarta EE and over 350 open source projects, including runtimes, tools and frameworks">
+    <link rel="shortcut icon" type="image/png" href="/sirius/images/favicon_sirius.ico"/>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="/sirius/common_assets/css/styles.css">
+    <link rel="stylesheet" href="/sirius/common_assets/css/animate.css">
+    <link rel="stylesheet" href="/sirius/common_assets/css/media.css"/>
+    <link rel="stylesheet" href="/sirius/assets/css/main.css"/>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="/sirius/common_assets/js/magnific-popup.video.js"></script>
+    <script src="/sirius/common_assets/js/magnific-popup.min.js"></script>
+    <script defer src="https://cloud.umami.is/script.js" data-website-id="1b4c8e8f-4ccb-4558-a0d0-05211bd66444"></script>
+
+    <!-- Eclipse Foundation Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
+        <!-- End Google Tag Manager -->
+
+        <!-- Eclipse Foundation cookie consent: -->
+        <link rel="stylesheet" type="text/css" href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
+        <script src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js"></script>
+
+        <script src= "/sirius/assets/js/ga.js"></script>
+
+    <!-- FontAwesome Latest version Kit (automatically updated) -->
+    <script src="https://kit.fontawesome.com/16cf99803e.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+    <script>
+        jQuery(function($){ $(".hasTooltip").tooltip({"html": true,"container": "body"}); });
+    </script>
+    <!-- Triggers tooltips -->
+    <script>
+        jQuery(document).ready(function() {
+            jQuery('.hasTooltip').tooltip();
+        });
+    </script>
+</head>
+
+  <body>
+    <!-- Navigation -->
+<header id="top-bar" class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+        <div id="super-menu" class="d-flex">
+            <nav class="main-menu ml-auto">
+                <ul class="nav navbar-nav">
+                    <li><a href="/sirius">Sirius Desktop</a></li>
+                    <li class="current"><a href="#">Sirius Web</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="d-flex" id="main-menu-items">
+            <a class="navbar-brand" href="/sirius">
+                <img src="/sirius/common_assets/images/logos/logo_sirius.png" alt="Logo Sirius">
+            </a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars"></i>
+            </button>
+            <nav class="navbar-collapse collapse" id="navbarResponsive">
+                <div class="main-menu ml-auto">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="#features" data-row="#features" class="smooth-scroll">Features</a>
+                        </li>
+                        <li>
+                            <a href="gallery-web.html">Gallery</a>
+                        </li>
+                        <li>
+                            <a href="#extensibility" data-row="#extensibility" class="smooth-scroll">Extensibility</a>
+                        </li>
+                        <li>
+                            <a href="#community" data-row="#community" class="smooth-scroll">Community</a>
+                        </li>
+                        <li>
+                            <a href="#references" data-row="#references" class="smooth-scroll">References</a>
+                        </li>
+                        <li>
+                            <a href="#resources" data-row="#resources" class="smooth-scroll">Resources</a>
+                        </li>
+                        <li id="dwnld">
+                            <a href="https://github.com/eclipse-sirius/sirius-web">Download</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+
+    <section id="intro" class="">
     <div class="container">
         <div class="row align-items-end">
-            {% include section_intro.html
-                title="Easily create and deploy graphical studios to the web"
-                desc="An open-source <b>low-code</b> platform for defining custom <b>web applications</b> that support your specific <b>visual languages</b>"
+            <div class="col-md-5 col-xs-12 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+    <h1>Easily create and deploy graphical studios to the web</h1>
+    <p>An open-source <b>low-code</b> platform for defining custom <b>web applications</b> that support your specific <b>visual languages</b></p>
+    <p>
 
-                img_src="images/sirius-web/siriusweb-diagram.png"
-                img_alt="Easily create and deploy studios to the web"
-            %}
+        <a class="d-none"></a>
+
+
+        <a class="d-none"></a>
+
+    </p>
+</div>
+
+<div class="col-md-7 col-xs-12 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+    <p>
+        <a href="" class="wow fadeInUp" data-wow-delay=".6s" target="_">
+            <img src="images/sirius-web/siriusweb-diagram.png" alt="Easily create and deploy studios to the web">
+        </a>
+    </p>
+</div>
+
         </div>
     </div>
 </section>
 <section id="why_sirius_web" class="bg_lightest_grey text-center">
     <div class="container">
         <div class="row">
-            {% include block_cols.html
-                col="4"
-                icon_name="fas fa-project-diagram"
-                icon_color="txt_indigo"
-                title="Graphically represent<br>and edit data"
-                desc="Modeling studios built with Sirius Web support the editing of your DSL using both your specific visual notation and native domain concepts"
-            %}
+            <div class="col-md-4 col-xs-12 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+    <div>
+        <i class="fas fa-project-diagram fa-3x pa2 txt_indigo" aria-hidden="true"></i>
+    </div>
+    <div>
+        <h4>Graphically represent<br>and edit data</h4>
+        <p>Modeling studios built with Sirius Web support the editing of your DSL using both your specific visual notation and native domain concepts</p>
+        <p><a class="" href="" target=""> <i class="" aria-hidden="true"></i>
+        </a></p>
+    </div>
+</div>
 
-            {% include block_cols.html
-                col="4"
-                icon_name="fab fa-html5"
-                icon_color="txt_indigo"
-                title="With a modern<br>cloud-based application"
-                desc="Your studios provide a modern UX and are deployed on a web server using state-of-the-art technologies: Spring, React, PostgreSQL, GraphQL"
-            %}
 
-            {% include block_cols.html
-                col="4"
-                icon_name="fas fa-power-off"
-                icon_color="txt_indigo"
-                title="No Desktop Installation Required"
-                desc="Once deployed on a server, users can launch your custom studio directly from a web browser, with no need for any specific desktop installation"
-            %}
+            <div class="col-md-4 col-xs-12 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+    <div>
+        <i class="fab fa-html5 fa-3x pa2 txt_indigo" aria-hidden="true"></i>
+    </div>
+    <div>
+        <h4>With a modern<br>cloud-based application</h4>
+        <p>Your studios provide a modern UX and are deployed on a web server using state-of-the-art technologies: Spring, React, PostgreSQL, GraphQL</p>
+        <p><a class="" href="" target=""> <i class="" aria-hidden="true"></i>
+        </a></p>
+    </div>
+</div>
+
+
+            <div class="col-md-4 col-xs-12 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+    <div>
+        <i class="fas fa-power-off fa-3x pa2 txt_indigo" aria-hidden="true"></i>
+    </div>
+    <div>
+        <h4>No Desktop Installation Required</h4>
+        <p>Once deployed on a server, users can launch your custom studio directly from a web browser, with no need for any specific desktop installation</p>
+        <p><a class="" href="" target=""> <i class="" aria-hidden="true"></i>
+        </a></p>
+    </div>
+</div>
+
         </div>
 		<div class="row">
 			<div class="col-md-6 col-xs-12 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
@@ -57,210 +188,219 @@ title: Sirius | Sirius WebHome
 
 <section id="download" class="bg_indigo text-white text-center">
     <div class="container">
-        {% include block_heading.html
-            title="Download from Github"
-            sub_title=""
-            desc="<p><b>Sirius Web</b> is a sub-project of Eclipse Sirius. It is <b>open-source</b> and hosted at the <a href='https://eclipse.org/' target='_blank'>Eclipse Foundation</a></p>
-        <p>Source code is available on <a href='https://github.com/eclipse-sirius/sirius-web' target='_blank'>GitHub</a>. It contains an example application, built using the frontend and backend components.</p>"
-        %}
+        <h2 class="title wow fadeInDown" data-wow-duration="500ms" data-wow-delay=".2s">Download from Github</h2>
+<h3 class="wow fadeInDown" data-wow-duration="600ms" data-wow-delay=".3s"></h3>
+<p class="wow fadeInDown" data-wow-duration="700ms" data-w ow-delay=".5s"><p><b>Sirius Web</b> is a sub-project of Eclipse Sirius. It is <b>open-source</b> and hosted at the <a href='https://eclipse.org/' target='_blank'>Eclipse Foundation</a></p>
+        <p>Source code is available on <a href='https://github.com/eclipse-sirius/sirius-web' target='_blank'>GitHub</a>. It contains an example application, built using the frontend and backend components.</p></p>
+<p class="wow fadeInDown" data-wow-duration="800ms" data-w ow-delay=".6s"><img src="" class="" alt=""></p>
+
         <p><a class="btn btn-default" href="https://github.com/eclipse-sirius/sirius-web" target="_blank">Go to Source Code</a></p>
     </div>
 </section>
 <section id="features">
     <div class="container text-center">
-        {% include block_heading.html
-            title="Your Modern Web-based Studio"
-            sub_title=""
-            desc="By using Sirius Web to create your custom graphical studio, you automatically gain access to<br>a set of ready-to-use features expected from a modern web-based modeling environment."
-        %}
+        <h2 class="title wow fadeInDown" data-wow-duration="500ms" data-wow-delay=".2s">Your Modern Web-based Studio</h2>
+<h3 class="wow fadeInDown" data-wow-duration="600ms" data-wow-delay=".3s"></h3>
+<p class="wow fadeInDown" data-wow-duration="700ms" data-w ow-delay=".5s">By using Sirius Web to create your custom graphical studio, you automatically gain access to<br>a set of ready-to-use features expected from a modern web-based modeling environment.</p>
+<p class="wow fadeInDown" data-wow-duration="800ms" data-w ow-delay=".6s"><img src="" class="" alt=""></p>
+
         <p class="wow fadeInDown" data-wow-duration="800ms" data-w ow-delay=".6s"><img src="/sirius/images/sirius-web/features.png" width="1000"></p>
     </div>
     <div class="container">
-        {% include block_text_video.html
-            txt_order="order-1"
-            title="Rapid Onboarding"
-            desc="<p>For end users working with a studio built using Sirius Web, starting a new modeling project is simple and intuitive.</p><p>They can either open an existing project, create one from scratch, import a file, or initialize a new project using a pre-configured template.</p><p>Once the project is created, contextual accelerators and tools guide the user in populating the model, precisely editing object properties, and exploring the entire model.</p>"
-
-            iframe_order="order-2"
-            iframe_src="https://www.youtube.com/embed/R4Zd4sN2joQ"
-            iframe_width="530"
-            iframe_height="298"
-        %}
-        {% include block_text_image.html
-            txt_order="order-2"
-            title="Tailored Graph Diagrams"
-            desc="<p>Diagrams are the primary type of representation you can configure to enable end users to visually model and edit their data. In a diagram, model elements are depicted as nodes (shapes or images) and edges (directed or undirected).</p><p>A studio created with Sirius typically offers several types of graph diagrams, each tailored to represent specific types of objects with their own appearance (shape, color, label, internal elements, etc.), and to visualize how they relate to other elements within the same diagram.</p>"
-
-            img_order="order-1"
-            img_src="images/sirius-web/siriusweb-diagram.png"
-            img_title="Tailored Graph Diagrams"
-            img_href="images/sirius-web/siriusweb-diagram.png"
-        %}
-        {% include block_text_video.html
-            txt_order="order-1"
-            title=""
-            desc="<p>Each diagram comes with built-in advanced features, including:</p><ul><li>Graphical element layout management (arrange, auto-layout, pin/unpin, shading, helper lines, etc.)</li><li>High-quality rendering options (zoom, full-screen mode, SVG export, etc)</li></ul><p>Additionally, graph diagrams provide tools that users can execute, either from the diagram's background or directly on any visible element. These tools can be customized specifically for the studio.</p>"
-
-            iframe_order="order-2"
-            iframe_src="https://www.youtube.com/embed/BNcqFzoyViU"
-            iframe_width="530"
-            iframe_height="298"
-        %}
-         {% include block_text_video.html
-            txt_order="order-2"
-            title="Form Views"
-            desc="<p>The principles used by Sirius Web to display an object's properties in the Details View can also be applied to create specific form-based editors.</p><p>A form-based editor consists of specially arranged widgets that allow users to edit model elements.</p><p>These widgets can range from basic (text fields, checkboxes, radio buttons, etc.) to more advanced types (sliders, image pickers, calendars, charts, etc.).</p><p><a href='' target='_'>  <i class='' aria-hidden='true'></i></a></p>"
-
-            iframe_order="order-1"
-            iframe_src="https://www.youtube.com/embed/S_qw1hfn5r4"
-            iframe_width="530"
-            iframe_height="298"
-        %}
-        {% include block_text_video.html
-            txt_order="order-1"
-            title="Gantt Charts"
-            desc="<p>Sirius Web supports this familiar visual representation that shows the start and finish dates of various elements.</p><p>It features a timeline at the top, with horizontal bars positioned and sized according to dates and durations. These bars can be linked to illustrate dependencies.</p><p>While commonly used for task scheduling in projects, Gantt charts can be applied to any domain involving dates.</p>"
-
-            iframe_order="order-2"
-            iframe_src="https://www.youtube.com/embed/pUg4uyF_FnA"
-            iframe_width="530"
-            iframe_height="298"
-        %}
-        {% include block_text_video.html
-            txt_order="order-2"
-            title="Deck Representation"
-            desc="<p>The Deck representation is a visual format popularized by Kanban boards, where cards are displayed in lanes.</p><p>Each lane typically represents a specific state (e.g., Not Started, In Progress, Completed).</p><p>With Sirius Web, this representation can be used for specific domains, allowing users to manage their data with cards.</p>"
-
-            iframe_order="order-1"
-            iframe_src="https://www.youtube.com/embed/kkxqB8wIUlE"
-            iframe_width="530"
-            iframe_height="298"
-        %}
-        {% include block_text_video.html
-            txt_order="order-1"
-            title="Table Representation"
-            desc="<p>To manipulate large sets of data, Sirius Web provides a tabular representation.</p><p>It offers spreadsheet-like views that can be used with any kind of model element, synchronized with your data and updated in real time.</p><p>Like other Sirius representations, it is defined by a description that enables advanced cell editing (text fields, checkboxes, dropdowns, or custom components) and sub-rows for hierarchical structures.</p><p>Each table natively provides powerful features such as: server-side pagination for high performance on large datasets, filtering and sorting, column resizing and visibility control and CSV export</p>"
-
-            iframe_order="order-2"
-            iframe_src="https://www.youtube.com/embed/Dl0tkHF2b-s?si=E7Sqh84NrFS_QKUs&amp;start=280;"
-            iframe_width="530"
-            iframe_height="298"
-        %}
-        {% include block_text_video.html
-            txt_order="order-2"
-            title="Portal Representation"
-            desc="<p>A portal is a ready-to-use representation that allows end users to create a custom view composed of multiple existing representations, such as diagrams, forms, Gantt charts, tables, and more.</p>"
-
-            iframe_order="order-1"
-            iframe_src="https://www.youtube.com/embed/0hVER_3goCw"
-            iframe_width="530"
-            iframe_height="298"
-        %}
+        <div class="row">
+    <div class="col-md-5 order-1 wow fadeInLeft" data-wow-delay=".1s">
+        <h3>Rapid Onboarding</h3>
+        <p>For end users working with a studio built using Sirius Web, starting a new modeling project is simple and intuitive.</p><p>They can either open an existing project, create one from scratch, import a file, or initialize a new project using a pre-configured template.</p><p>Once the project is created, contextual accelerators and tools guide the user in populating the model, precisely editing object properties, and exploring the entire model.</p>
+        <p><a href="" target="_">  <i class="" aria-hidden="true"></i></a></p>
+    </div>
+    <div class="col-md-7 text-center order-2 wow fadeInUp" data-wow-delay=".2s">
+        <iframe class="shadow popup-youtube" width="530" height="298" src="https://www.youtube.com/embed/R4Zd4sN2joQ?fs=1&amp;loop=1&amp;autohide=1&amp;theme=light&amp;color=white" frameborder="0" allowfullscreen=""></iframe>
+    </div>
+</div>
+        <div class="row">
+    <div class="col-md-5 order-2 wow fadeInLeft" data-wow-delay=".1s">
+        <h3>Tailored Graph Diagrams</h3>
+        <p>Diagrams are the primary type of representation you can configure to enable end users to visually model and edit their data. In a diagram, model elements are depicted as nodes (shapes or images) and edges (directed or undirected).</p><p>A studio created with Sirius typically offers several types of graph diagrams, each tailored to represent specific types of objects with their own appearance (shape, color, label, internal elements, etc.), and to visualize how they relate to other elements within the same diagram.</p>
+        <p><a href="" target="_">  <i class="" aria-hidden="true"></i></a></p>
+    </div>
+    <div class="col-md-7 popup-gallery text-center order-1 wow fadeInUp" data-wow-delay=".2s">
+        <a href="images/sirius-web/siriusweb-diagram.png" target="_" title="Tailored Graph Diagrams"><img src="images/sirius-web/siriusweb-diagram.png" class="" alt="Tailored Graph Diagrams"></a>
+    </div>
+</div>
+        <div class="row">
+    <div class="col-md-5 order-1 wow fadeInLeft" data-wow-delay=".1s">
+        <h3></h3>
+        <p>Each diagram comes with built-in advanced features, including:</p><ul><li>Graphical element layout management (arrange, auto-layout, pin/unpin, shading, helper lines, etc.)</li><li>High-quality rendering options (zoom, full-screen mode, SVG export, etc)</li></ul><p>Additionally, graph diagrams provide tools that users can execute, either from the diagram's background or directly on any visible element. These tools can be customized specifically for the studio.</p>
+        <p><a href="" target="_">  <i class="" aria-hidden="true"></i></a></p>
+    </div>
+    <div class="col-md-7 text-center order-2 wow fadeInUp" data-wow-delay=".2s">
+        <iframe class="shadow popup-youtube" width="530" height="298" src="https://www.youtube.com/embed/BNcqFzoyViU?fs=1&amp;loop=1&amp;autohide=1&amp;theme=light&amp;color=white" frameborder="0" allowfullscreen=""></iframe>
+    </div>
+</div>
+         <div class="row">
+    <div class="col-md-5 order-2 wow fadeInLeft" data-wow-delay=".1s">
+        <h3>Form Views</h3>
+        <p>The principles used by Sirius Web to display an object's properties in the Details View can also be applied to create specific form-based editors.</p><p>A form-based editor consists of specially arranged widgets that allow users to edit model elements.</p><p>These widgets can range from basic (text fields, checkboxes, radio buttons, etc.) to more advanced types (sliders, image pickers, calendars, charts, etc.).</p><p><a href='' target='_'>  <i class='' aria-hidden='true'></i></a></p>
+        <p><a href="" target="_">  <i class="" aria-hidden="true"></i></a></p>
+    </div>
+    <div class="col-md-7 text-center order-1 wow fadeInUp" data-wow-delay=".2s">
+        <iframe class="shadow popup-youtube" width="530" height="298" src="https://www.youtube.com/embed/S_qw1hfn5r4?fs=1&amp;loop=1&amp;autohide=1&amp;theme=light&amp;color=white" frameborder="0" allowfullscreen=""></iframe>
+    </div>
+</div>
+        <div class="row">
+    <div class="col-md-5 order-1 wow fadeInLeft" data-wow-delay=".1s">
+        <h3>Gantt Charts</h3>
+        <p>Sirius Web supports this familiar visual representation that shows the start and finish dates of various elements.</p><p>It features a timeline at the top, with horizontal bars positioned and sized according to dates and durations. These bars can be linked to illustrate dependencies.</p><p>While commonly used for task scheduling in projects, Gantt charts can be applied to any domain involving dates.</p>
+        <p><a href="" target="_">  <i class="" aria-hidden="true"></i></a></p>
+    </div>
+    <div class="col-md-7 text-center order-2 wow fadeInUp" data-wow-delay=".2s">
+        <iframe class="shadow popup-youtube" width="530" height="298" src="https://www.youtube.com/embed/pUg4uyF_FnA?fs=1&amp;loop=1&amp;autohide=1&amp;theme=light&amp;color=white" frameborder="0" allowfullscreen=""></iframe>
+    </div>
+</div>
+        <div class="row">
+    <div class="col-md-5 order-2 wow fadeInLeft" data-wow-delay=".1s">
+        <h3>Deck Representation</h3>
+        <p>The Deck representation is a visual format popularized by Kanban boards, where cards are displayed in lanes.</p><p>Each lane typically represents a specific state (e.g., Not Started, In Progress, Completed).</p><p>With Sirius Web, this representation can be used for specific domains, allowing users to manage their data with cards.</p>
+        <p><a href="" target="_">  <i class="" aria-hidden="true"></i></a></p>
+    </div>
+    <div class="col-md-7 text-center order-1 wow fadeInUp" data-wow-delay=".2s">
+        <iframe class="shadow popup-youtube" width="530" height="298" src="https://www.youtube.com/embed/kkxqB8wIUlE?fs=1&amp;loop=1&amp;autohide=1&amp;theme=light&amp;color=white" frameborder="0" allowfullscreen=""></iframe>
+    </div>
+</div>
+        <div class="row">
+    <div class="col-md-5 order-1 wow fadeInLeft" data-wow-delay=".1s">
+        <h3>Table Representation</h3>
+        <p>To manipulate large sets of data, Sirius Web provides a tabular representation.</p><p>It offers spreadsheet-like views that can be used with any kind of model element, synchronized with your data and updated in real time.</p><p>Like other Sirius representations, it is defined by a description that enables advanced cell editing (text fields, checkboxes, dropdowns, or custom components) and sub-rows for hierarchical structures.</p><p>Each table natively provides powerful features such as: server-side pagination for high performance on large datasets, filtering and sorting, column resizing and visibility control and CSV export</p>
+        <p><a href="" target="_">  <i class="" aria-hidden="true"></i></a></p>
+    </div>
+    <div class="col-md-7 text-center order-2 wow fadeInUp" data-wow-delay=".2s">
+        <iframe class="shadow popup-youtube" width="530" height="298" src="https://www.youtube.com/embed/Dl0tkHF2b-s?si=E7Sqh84NrFS_QKUs&amp;start=280;?fs=1&amp;loop=1&amp;autohide=1&amp;theme=light&amp;color=white" frameborder="0" allowfullscreen=""></iframe>
+    </div>
+</div>
+        <div class="row">
+    <div class="col-md-5 order-2 wow fadeInLeft" data-wow-delay=".1s">
+        <h3>Portal Representation</h3>
+        <p>A portal is a ready-to-use representation that allows end users to create a custom view composed of multiple existing representations, such as diagrams, forms, Gantt charts, tables, and more.</p>
+        <p><a href="" target="_">  <i class="" aria-hidden="true"></i></a></p>
+    </div>
+    <div class="col-md-7 text-center order-1 wow fadeInUp" data-wow-delay=".2s">
+        <iframe class="shadow popup-youtube" width="530" height="298" src="https://www.youtube.com/embed/0hVER_3goCw?fs=1&amp;loop=1&amp;autohide=1&amp;theme=light&amp;color=white" frameborder="0" allowfullscreen=""></iframe>
+    </div>
+</div>
     </div>
 </section>
 
 <section id="extensibility" class="bg_lightest_grey">
     <div class="container text-center">
-        {% include block_heading.html
-            title="Flexible and Highly Extensible"
-            sub_title=""
-            desc="Most of the features offered by Sirius are highly customizable, enabling you to perfectly tailor the studio for your end users."
-        %}
+        <h2 class="title wow fadeInDown" data-wow-duration="500ms" data-wow-delay=".2s">Flexible and Highly Extensible</h2>
+<h3 class="wow fadeInDown" data-wow-duration="600ms" data-wow-delay=".3s"></h3>
+<p class="wow fadeInDown" data-wow-duration="700ms" data-w ow-delay=".5s">Most of the features offered by Sirius are highly customizable, enabling you to perfectly tailor the studio for your end users.</p>
+<p class="wow fadeInDown" data-wow-duration="800ms" data-w ow-delay=".6s"><img src="" class="" alt=""></p>
+
         <p class="wow fadeInDown popup-gallery" data-wow-duration="800ms" data-w ow-delay=".6s">
 			<a href="/sirius/images/sirius-web/siriusweb-principles.jpg" target='_' title="Sirius Web Principles"><img src="/sirius/images/sirius-web/siriusweb-principles.svg" width="1110"></a>
 		</p>
     </div>
     <div class="container">
-        {% include block_text_video.html
-            txt_order="order-1"
-            title="Low Code Approach"
-            desc="<p>Studios built with Sirius Web are primarily defined through configuration, requiring a minimal programming.</p><p>The platform provides built-in features to specify the structure of your data (Domain), and how it can be graphically visualized and edited (View).</p><p>This approach significantly reduces the amount of code needed to create a modeling tool, allowing developers to focus more on defining modeling concepts, graphical representations, and value-added functionalities.</p>"
-            iframe_order="order-2"
-            iframe_src="https://www.youtube.com/embed/p_tDEzGtS0o"
-            iframe_width="530"
-            iframe_height="298"
-        %}
-        {% include block_text_image.html
-            txt_order="order-2"
-            title="Modular and Modern Architecture"
-            desc="<p>The studio's features defined by configuration are complemented by source code built on a modular and modern web-based architecture.</p><p>Sirius Web's technical foundation leverages the latest web technologies, including React, Spring Boot, PostgreSQL, and GraphQL, ensuring it remains at the forefront of web development.</p>"
-            img_order="order-1"
-            img_src="/sirius/images/sirius-web/siriusweb-technologies.png"
-            img_title="Sirius Web Technologies: React, Spring Boot, PostgreSQL, and GraphQL"
-            img_href="/sirius/images/sirius-web/siriusweb-technologies.png"
-        %}
-        {% include block_text_video.html
-            txt_order="order-1"
-            title="Seamless Integration Capabilities"
-            desc="<p>This architecture makes it easy to integrate external components into your studio, such as form widgets, graphical views, and business rules.</p><p>Conversely, your studio can be integrated into other applications, providing advanced editing and visualization capabilities.</p><p>In the video beside this text, you can see an integration between the Papyrus web editor (created with Sirius Web) and an LLM: in this experimental example, an AI application copilots the end user in the creation of a UML model.</p>"
-
-            iframe_order="order-2"
-            iframe_src="https://www.youtube.com/embed/tNYg9kx4O7s"
-            iframe_width="530"
-            iframe_height="298"
-        %}
+        <div class="row">
+    <div class="col-md-5 order-1 wow fadeInLeft" data-wow-delay=".1s">
+        <h3>Low Code Approach</h3>
+        <p>Studios built with Sirius Web are primarily defined through configuration, requiring a minimal programming.</p><p>The platform provides built-in features to specify the structure of your data (Domain), and how it can be graphically visualized and edited (View).</p><p>This approach significantly reduces the amount of code needed to create a modeling tool, allowing developers to focus more on defining modeling concepts, graphical representations, and value-added functionalities.</p>
+        <p><a href="" target="_">  <i class="" aria-hidden="true"></i></a></p>
+    </div>
+    <div class="col-md-7 text-center order-2 wow fadeInUp" data-wow-delay=".2s">
+        <iframe class="shadow popup-youtube" width="530" height="298" src="https://www.youtube.com/embed/p_tDEzGtS0o?fs=1&amp;loop=1&amp;autohide=1&amp;theme=light&amp;color=white" frameborder="0" allowfullscreen=""></iframe>
+    </div>
+</div>
+        <div class="row">
+    <div class="col-md-5 order-2 wow fadeInLeft" data-wow-delay=".1s">
+        <h3>Modular and Modern Architecture</h3>
+        <p>The studio's features defined by configuration are complemented by source code built on a modular and modern web-based architecture.</p><p>Sirius Web's technical foundation leverages the latest web technologies, including React, Spring Boot, PostgreSQL, and GraphQL, ensuring it remains at the forefront of web development.</p>
+        <p><a href="" target="_">  <i class="" aria-hidden="true"></i></a></p>
+    </div>
+    <div class="col-md-7 popup-gallery text-center order-1 wow fadeInUp" data-wow-delay=".2s">
+        <a href="/sirius/images/sirius-web/siriusweb-technologies.png" target="_" title="Sirius Web Technologies: React, Spring Boot, PostgreSQL, and GraphQL"><img src="/sirius/images/sirius-web/siriusweb-technologies.png" class="" alt="Sirius Web Technologies: React, Spring Boot, PostgreSQL, and GraphQL"></a>
+    </div>
+</div>
+        <div class="row">
+    <div class="col-md-5 order-1 wow fadeInLeft" data-wow-delay=".1s">
+        <h3>Seamless Integration Capabilities</h3>
+        <p>This architecture makes it easy to integrate external components into your studio, such as form widgets, graphical views, and business rules.</p><p>Conversely, your studio can be integrated into other applications, providing advanced editing and visualization capabilities.</p><p>In the video beside this text, you can see an integration between the Papyrus web editor (created with Sirius Web) and an LLM: in this experimental example, an AI application copilots the end user in the creation of a UML model.</p>
+        <p><a href="" target="_">  <i class="" aria-hidden="true"></i></a></p>
+    </div>
+    <div class="col-md-7 text-center order-2 wow fadeInUp" data-wow-delay=".2s">
+        <iframe class="shadow popup-youtube" width="530" height="298" src="https://www.youtube.com/embed/tNYg9kx4O7s?fs=1&amp;loop=1&amp;autohide=1&amp;theme=light&amp;color=white" frameborder="0" allowfullscreen=""></iframe>
+    </div>
+</div>
     </div>
 </section>
 
 <section id="community" class="text-center bg_indigo">
     <div class="container">
-        {% include block_heading.html
-            title="Community"
-            sub_title=""
-            desc=""
-        %}
+        <h2 class="title wow fadeInDown" data-wow-duration="500ms" data-wow-delay=".2s">Community</h2>
+<h3 class="wow fadeInDown" data-wow-duration="600ms" data-wow-delay=".3s"></h3>
+<p class="wow fadeInDown" data-wow-duration="700ms" data-w ow-delay=".5s"></p>
+<p class="wow fadeInDown" data-wow-duration="800ms" data-w ow-delay=".6s"><img src="" class="" alt=""></p>
+
 
 		<div class="row txt_white">
         	<div class="col-md-6 col-xs-12 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
         		<h4>Stay tuned!</h4>
        			<div class="row">
 
-                    {% include block_cols.html
-                        col="4 offset-md-2"
-                        icon_name="fa fa-linkedin-square"
-                        icon_color="txt_white"
-                        title=""
-                        desc="Connect to<br>Sirius community"
-                        href="https://www.linkedin.com/in/eclipse-sirius/"
-                        link_txt="LinkedIn "
-                        href_icon="fas fa-arrow-alt-circle-right"
-                    %}
-                    {% include block_cols.html
-                        col="4"
-                        icon_name="fa fa-paper-plane"
-                        icon_color="txt_white"
-                        title=""
-                        desc="Receive news<br>about Sirius"
-                        href="https://www.obeosoft.com/en/sirius-mailing-list"
-                        link_txt="Mailing List "
-                        href_icon="fas fa-arrow-alt-circle-right"
-                    %}
+                    <div class="col-md-4 offset-md-2 col-xs-12 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+    <div>
+        <i class="fa fa-linkedin-square fa-3x pa2 txt_white" aria-hidden="true"></i>
+    </div>
+    <div>
+        <h4></h4>
+        <p>Connect to<br>Sirius community</p>
+        <p><a class="" href="https://www.linkedin.com/in/eclipse-sirius/" target="">LinkedIn  <i class="fas fa-arrow-alt-circle-right" aria-hidden="true"></i>
+        </a></p>
+    </div>
+</div>
+
+                    <div class="col-md-4 col-xs-12 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+    <div>
+        <i class="fa fa-paper-plane fa-3x pa2 txt_white" aria-hidden="true"></i>
+    </div>
+    <div>
+        <h4></h4>
+        <p>Receive news<br>about Sirius</p>
+        <p><a class="" href="https://www.obeosoft.com/en/sirius-mailing-list" target="">Mailing List  <i class="fas fa-arrow-alt-circle-right" aria-hidden="true"></i>
+        </a></p>
+    </div>
+</div>
+
        			</div>
        		</div>
         	<div class="col-md-6 col-xs-12 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
         		<h4>Engage with us!</h4>
        			<div class="row">
-                    {% include block_cols.html
-                        col="4 offset-md-2"
-                        icon_name="far fa-comments"
-                        icon_color="txt_white"
-                        title=""
-                        desc="Contact Sirius<br>development team"
-                        href="https://github.com/eclipse-sirius/sirius-web/discussions"
-                        link_txt="Forum "
-                        href_icon="fas fa-arrow-alt-circle-right"
-                    %}
-                    {% include block_cols.html
-                        col="4"
-                        icon_name="far fa-user"
-                        icon_color="txt_white"
-                        title=""
-                        desc="Let's discuss<br>your project"
-                        href="https://www.obeosoft.com/en/company/open-innovation"
-                        target="_blank"
-                        link_txt="Open Innovation "
-                        href_icon="fas fa-arrow-alt-circle-right"
-                    %}
+                    <div class="col-md-4 offset-md-2 col-xs-12 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+    <div>
+        <i class="far fa-comments fa-3x pa2 txt_white" aria-hidden="true"></i>
+    </div>
+    <div>
+        <h4></h4>
+        <p>Contact Sirius<br>development team</p>
+        <p><a class="" href="https://github.com/eclipse-sirius/sirius-web/discussions" target="">Forum  <i class="fas fa-arrow-alt-circle-right" aria-hidden="true"></i>
+        </a></p>
+    </div>
+</div>
+
+                    <div class="col-md-4 col-xs-12 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+    <div>
+        <i class="far fa-user fa-3x pa2 txt_white" aria-hidden="true"></i>
+    </div>
+    <div>
+        <h4></h4>
+        <p>Let's discuss<br>your project</p>
+        <p><a class="" href="https://www.obeosoft.com/en/company/open-innovation" target="_blank">Open Innovation  <i class="fas fa-arrow-alt-circle-right" aria-hidden="true"></i>
+        </a></p>
+    </div>
+</div>
+
        			</div>
        		</div>
        	</div>
@@ -271,120 +411,115 @@ title: Sirius | Sirius WebHome
 
 <section id="community" class="bg_grey">
     <div class="container text-center">
-        {% include block_heading.html
-            title="Welcome On Board!"
-            sub_title=""
-            desc="<p>Sirius Web exists thanks to the fruitful collaboration, in an <a href='https://www.obeosoft.com/en/company/open-innovation' target='_blank'>open-innovation</a> model,<br>between the project team and end-user organizations that fund the development of new features.</p><p>Together, let's build your future cutting-edge modeling solution with Sirius Web.</p>"
-        %}
+        <h2 class="title wow fadeInDown" data-wow-duration="500ms" data-wow-delay=".2s">Welcome On Board!</h2>
+<h3 class="wow fadeInDown" data-wow-duration="600ms" data-wow-delay=".3s"></h3>
+<p class="wow fadeInDown" data-wow-duration="700ms" data-w ow-delay=".5s"><p>Sirius Web exists thanks to the fruitful collaboration, in an <a href='https://www.obeosoft.com/en/company/open-innovation' target='_blank'>open-innovation</a> model,<br>between the project team and end-user organizations that fund the development of new features.</p><p>Together, let's build your future cutting-edge modeling solution with Sirius Web.</p></p>
+<p class="wow fadeInDown" data-wow-duration="800ms" data-w ow-delay=".6s"><img src="" class="" alt=""></p>
+
     </div>
     <div class="container">
-        {% include block_text_image.html
-            txt_order="order-1"
-            title=""
-            desc="<p>Are you:</p><ul><li>A <b>Software Provider</b> distributing modeling products?</li><li>A <b>Large Organization</b> with your own modeling methodology?</li></ul><p>Do you need:</p><ul><li>To <b>migrate</b> a desktop modeling tool <b>to the web</b>?</li><li>To <b>develop</b> a brand-new <b>web-based</b> modeling tool?</li></ul>"
-            img_order="order-2"
-            img_src="/sirius/images/illustrations/sirius-web-extensibility.png"
-            img_title="Open Innovation"
-            img_href="https://www.obeosoft.com/contact"
-        %}
+        <div class="row">
+    <div class="col-md-5 order-1 wow fadeInLeft" data-wow-delay=".1s">
+        <h3></h3>
+        <p>Are you:</p><ul><li>A <b>Software Provider</b> distributing modeling products?</li><li>A <b>Large Organization</b> with your own modeling methodology?</li></ul><p>Do you need:</p><ul><li>To <b>migrate</b> a desktop modeling tool <b>to the web</b>?</li><li>To <b>develop</b> a brand-new <b>web-based</b> modeling tool?</li></ul>
+        <p><a href="" target="_">  <i class="" aria-hidden="true"></i></a></p>
+    </div>
+    <div class="col-md-7 popup-gallery text-center order-2 wow fadeInUp" data-wow-delay=".2s">
+        <a href="/sirius/images/illustrations/sirius-web-extensibility.png" target="_" title="Open Innovation"><img src="/sirius/images/illustrations/sirius-web-extensibility.png" class="" alt="Open Innovation"></a>
+    </div>
+</div>
         <p class="text-center"><a class="btn btn-default text-white" href="https://www.obeosoft.com/en/company/open-innovation" target="_blank">Let’s work together</a></p>
     </div>
 </section>
 
 <section id="references">
     <div class="container text-center">
-        {% include block_heading.html
-            title="Powered by Sirius Web!"
-            sub_title=""
-            desc="Discover the studios with Sirius Web inside."
-        %}
+        <h2 class="title wow fadeInDown" data-wow-duration="500ms" data-wow-delay=".2s">Powered by Sirius Web!</h2>
+<h3 class="wow fadeInDown" data-wow-duration="600ms" data-wow-delay=".3s"></h3>
+<p class="wow fadeInDown" data-wow-duration="700ms" data-w ow-delay=".5s">Discover the studios with Sirius Web inside.</p>
+<p class="wow fadeInDown" data-wow-duration="800ms" data-w ow-delay=".6s"><img src="" class="" alt=""></p>
+
     </div>
     <div class="container">
-        {% include block_text_image.html
-            txt_order="order-1"
-            title="Eclipse SysON"
-            desc="<p>Eclipse SysON is an open-source, web-based MBSE modeling tool designed for authoring SysML v2 models.</p><p>The SysON workbench is developed using Sirius Web.</p>"
-            lnk_href="https://mbse-syson.org"
-            lnk_target=""
-            lnk_txt="Project page"
-            lnk_icon="fas fa-arrow-alt-circle-right"
-            img_order="order-2"
-            img_src="/sirius/images/sirius-web/logo_syson.svg"
-            img_title="Eclipse SysON"
-            img_href="https://mbse-syson.org"
-        %}
-        {% include block_text_image.html
-            txt_order="order-2"
-            title="Eclipse Papyrus"
-            desc="<p><a href='https://eclipse.dev/papyrus'>Eclipse Papyrus</a> is an industrial-grade, open-source Model-Based Engineering tool.</p><p>The web editors for Papyrus are developed using Sirius Web.</p>"
-			lnk_href="https://eclipse.dev/papyrus"
-            lnk_target=""
-            lnk_txt="Project page"
-            lnk_icon="fas fa-arrow-alt-circle-right"
-            img_order="order-1"
-            img_src="/sirius/images/sirius-web/logo_papyrus.svg"
-            img_title="Eclipse Papyrus"
-            img_href="https://eclipse.dev/papyrus"
-        %}
-        {% include block_text_image.html
-            txt_order="order-1"
-            title="Obeo SmartEA"
-            desc="<p><a href='https://www.obeosmartea.com/'>Obeo SmartEA</a> is a graphical and collaborative Enterprise Architecture solution that supports ArchiMate and BPMN standards.</p><p>The web editors for Obeo SmartEA are developed using Sirius Web.</p>"
-            lnk_href="https://www.obeosmartea.com/"
-            lnk_target=""
-            lnk_txt="Product page"
-            lnk_icon="fas fa-arrow-alt-circle-right"
-            img_order="order-2"
-            img_src="/sirius/images/sirius-web/logo_obeo_smartea.svg"
-            img_title="Obeo SmartEA"
-            img_href="https://www.obeosmartea.com"
-        %}
+        <div class="row">
+    <div class="col-md-5 order-1 wow fadeInLeft" data-wow-delay=".1s">
+        <h3>Eclipse SysON</h3>
+        <p>Eclipse SysON is an open-source, web-based MBSE modeling tool designed for authoring SysML v2 models.</p><p>The SysON workbench is developed using Sirius Web.</p>
+        <p><a href="https://mbse-syson.org" target="_">Project page  <i class="fas fa-arrow-alt-circle-right" aria-hidden="true"></i></a></p>
+    </div>
+    <div class="col-md-7 popup-gallery text-center order-2 wow fadeInUp" data-wow-delay=".2s">
+        <a href="/sirius/images/sirius-web/logo_syson.svg" target="_" title="Eclipse SysON"><img src="/sirius/images/sirius-web/logo_syson.svg" class="" alt="Eclipse SysON"></a>
+    </div>
+</div>
+        <div class="row">
+    <div class="col-md-5 order-2 wow fadeInLeft" data-wow-delay=".1s">
+        <h3>Eclipse Papyrus</h3>
+        <p><a href='https://eclipse.dev/papyrus'>Eclipse Papyrus</a> is an industrial-grade, open-source Model-Based Engineering tool.</p><p>The web editors for Papyrus are developed using Sirius Web.</p>
+        <p><a href="https://eclipse.dev/papyrus" target="_">Project page  <i class="fas fa-arrow-alt-circle-right" aria-hidden="true"></i></a></p>
+    </div>
+    <div class="col-md-7 popup-gallery text-center order-1 wow fadeInUp" data-wow-delay=".2s">
+        <a href="/sirius/images/sirius-web/logo_papyrus.svg" target="_" title="Eclipse Papyrus"><img src="/sirius/images/sirius-web/logo_papyrus.svg" class="" alt="Eclipse Papyrus"></a>
+    </div>
+</div>
+        <div class="row">
+    <div class="col-md-5 order-1 wow fadeInLeft" data-wow-delay=".1s">
+        <h3>Obeo SmartEA</h3>
+        <p><a href='https://www.obeosmartea.com/'>Obeo SmartEA</a> is a graphical and collaborative Enterprise Architecture solution that supports ArchiMate and BPMN standards.</p><p>The web editors for Obeo SmartEA are developed using Sirius Web.</p>
+        <p><a href="https://www.obeosmartea.com/" target="_">Product page  <i class="fas fa-arrow-alt-circle-right" aria-hidden="true"></i></a></p>
+    </div>
+    <div class="col-md-7 popup-gallery text-center order-2 wow fadeInUp" data-wow-delay=".2s">
+        <a href="/sirius/images/sirius-web/logo_obeo_smartea.svg" target="_" title="Obeo SmartEA"><img src="/sirius/images/sirius-web/logo_obeo_smartea.svg" class="" alt="Obeo SmartEA"></a>
+    </div>
+</div>
     </div>
 </section>
 
 <section id="resources" class="bg_lightest_grey text-center">
     <div class="container">
-        {% include block_heading.html
-            title="Resources"
-            sub_title=""
-            desc=""
-        %}
+        <h2 class="title wow fadeInDown" data-wow-duration="500ms" data-wow-delay=".2s">Resources</h2>
+<h3 class="wow fadeInDown" data-wow-duration="600ms" data-wow-delay=".3s"></h3>
+<p class="wow fadeInDown" data-wow-duration="700ms" data-w ow-delay=".5s"></p>
+<p class="wow fadeInDown" data-wow-duration="800ms" data-w ow-delay=".6s"><img src="" class="" alt=""></p>
+
 
 
 		<div class="row">
-			{% include block_cols.html
-				col="4"
-				icon_name="fa fa-youtube-play"
-				icon_color="txt_indigo"
-				title="Videos"
-				desc=""
-				href="https://www.youtube.com/playlist?list=PLDCKzuGIN_Zy1YTEJWo1nvrtHRs-Vwbc6"
-				target="_blank"
-                link_txt="Youtube channel "
-				href_icon="fas fa-arrow-alt-circle-right"
-			%}
-			{% include block_cols.html
-				col="4"
-				icon_name="far fa-newspaper"
-				icon_color="txt_indigo"
-				title="Articles"
-				desc=""
-				href="https://blog.obeo.fr/tags/siriusweb"
-				target="_blank"
-				link_txt="Sirius blog posts "
-				href_icon="fas fa-arrow-alt-circle-right"
-			%}
-			{% include block_cols.html
-				col="4"
-				icon_name="far fa-file-alt"
-				icon_color="txt_indigo"
-				title="Documentation"
-				desc=""
-				href="https://docs.obeostudio.com/"
-                target="_blank"
-				link_txt="Sirius documentation "
-				href_icon="fas fa-arrow-alt-circle-right"
-			%}
+			<div class="col-md-4 col-xs-12 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+    <div>
+        <i class="fa fa-youtube-play fa-3x pa2 txt_indigo" aria-hidden="true"></i>
+    </div>
+    <div>
+        <h4>Videos</h4>
+        <p></p>
+        <p><a class="" href="https://www.youtube.com/playlist?list=PLDCKzuGIN_Zy1YTEJWo1nvrtHRs-Vwbc6" target="_blank">Youtube channel  <i class="fas fa-arrow-alt-circle-right" aria-hidden="true"></i>
+        </a></p>
+    </div>
+</div>
+
+			<div class="col-md-4 col-xs-12 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+    <div>
+        <i class="far fa-newspaper fa-3x pa2 txt_indigo" aria-hidden="true"></i>
+    </div>
+    <div>
+        <h4>Articles</h4>
+        <p></p>
+        <p><a class="" href="https://blog.obeo.fr/tags/siriusweb" target="_blank">Sirius blog posts  <i class="fas fa-arrow-alt-circle-right" aria-hidden="true"></i>
+        </a></p>
+    </div>
+</div>
+
+			<div class="col-md-4 col-xs-12 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+    <div>
+        <i class="far fa-file-alt fa-3x pa2 txt_indigo" aria-hidden="true"></i>
+    </div>
+    <div>
+        <h4>Documentation</h4>
+        <p></p>
+        <p><a class="" href="https://docs.obeostudio.com/" target="_blank">Sirius documentation  <i class="fas fa-arrow-alt-circle-right" aria-hidden="true"></i>
+        </a></p>
+    </div>
+</div>
+
         </div>
     </div>
 </section>
@@ -393,3 +528,71 @@ title: Sirius | Sirius WebHome
 
 
 
+
+<footer>
+  <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+    <p><a href="https://www.eclipse.org/"  target="_blank"><img src="/sirius/common_assets/images/logos/logo-eclipse-foundation.png" alt="Eclipse Foundation logo"></a></p>
+    <p id="copyright">Copyright © 2025 Eclipse Foundation, Inc.<br>All Rights Reserved.</p>
+</div>
+
+<div class="col-md-3">
+    <h6>Eclipse Foundation</h6>
+    <ul>
+        <li><a href="https://www.eclipse.org/legal/privacy.php" target="_blank">Privacy Policy</a></li>
+        <li><a href="https://eclipse.org/" target="_blank">Eclipse</a></li>
+        <li><a href="https://www.eclipse.org/legal/termsofuse.php" target="_blank">Terms of Use</a></li>
+        <li><a href="https://www.eclipse.org/legal/copyright.php" target="_blank">Copyright Agent</a></li>
+        <li><a href="https://www.eclipse.org/legal/" target="_blank">Legal</a></li>
+        <li><a href="https://www.eclipse.org/org/foundation/contact.php" target="_blank"> Contact Us</a></li>
+    </ul>
+</div>
+
+        <div class="col-md-3">
+    <h6>Project Links</h6>
+    <ul>
+        <li><a href="https://projects.eclipse.org/projects/modeling.sirius" target="_blank">About this project</a></li>
+        <li><a href="https://github.com/eclipse-sirius/sirius-desktop/discussions" target="_blank">Sirius Desktop Discussions</a>
+        <li><a href="https://github.com/eclipse-sirius/sirius-web/discussions" target="_blank">Sirius Web Discussions</a>
+        <li><a href="https://github.com/eclipse-sirius/sirius-desktop/issues" target="_blank">Sirius Desktop Issues</a>
+        <li><a href="https://github.com/eclipse-sirius/sirius-web/discussions" target="_blank">Sirius Web Issues</a>
+        <li><a href="https://github.com/eclipse-sirius" target="_blank">Source Code</a></li>
+    </ul>
+</div>
+
+    </div>
+  </div>
+</footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous" defer></script>
+<script src="/sirius/common_assets/js/wow.min.js" defer></script>
+<script src="/sirius/common_assets/js/main.js" defer></script>
+<script src="/sirius/common_assets/js/magnific-popup.min.js" defer></script>
+<script src="/sirius/common_assets/js/magnific-popup.video.js" defer></script>
+<!-- Call wow function -->
+<script>
+        jQuery(document).ready(function(){
+            "use strict";
+            new WOW().init();
+            jQuery('.smooth-scroll').scrollingTo();
+
+            var url = window.location;
+            // Will only work if string in href matches with location
+            jQuery('ul.nav a[href="'+ url +'"]').parent().addClass('active');
+
+            // Will also work for relative and absolute hrefs
+            jQuery('ul.nav a').filter(function() {
+                return this.href == url;
+            }).parent().addClass('active');
+
+            jQuery(".nav a").on("click", function(){
+                jQuery(".nav").find(".active").removeClass("active");
+                jQuery(this).parent().addClass("active");
+            });
+        });
+</script>
+
+
+  </body>
+</html>
